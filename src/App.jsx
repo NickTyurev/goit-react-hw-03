@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import ContactForm from './ContactForm/ContactFotm.jsx';
-import SearchBox from './SearchBox/SearchBox.jsx';
-import ContactList from './ContactList/ContactList.jsx';
+import ContactForm from './components/ContactForm/ContactFotm.jsx';
+import SearchBox from './components/SearchBox/SearchBox.jsx';
+import ContactList from './components/ContactList/ContactList.jsx';
 import styles from './App.module.css';
 import { nanoid } from 'nanoid';
 
